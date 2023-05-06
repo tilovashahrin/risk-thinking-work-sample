@@ -9,17 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
+    "@types/chart.js": "^2.9.37",
     "@types/node": "18.15.13",
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
+    "chart.js": "^4.3.0",
+    "csv-parser": "^3.0.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "next": "13.3.1",
+    "papaparse": "^5.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
+    "react-select": "^5.7.2",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.7"
   }
 }
